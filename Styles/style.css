@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+}
+
+/* Header */
+.main{
+  height: 80px;
+  border: 1px solid rgba(14, 31, 6, 0.37);
+
+}
+
+/* LOGO */
+.main .logo{
+  width: 30%;
+  height: inherit;
+  font-size: 40px;
+  /*line-height: 80px;*/
+  padding: 20px;
+  float: left;
+
+}
+
+/* NAV */
+.main nav{
+  height: inherit;
+
+  float: right;
+  width: 30%;
+  }
+
+.main nav > ul{
+  width: 100%;
+  height: inherit;
+  list-style: none;
+  }
+
+.main nav > ul > li {
+  width: 33.33%;
+  float:left;
+  font-size: 25px;
+  height: inherit;
+  text-align: center;
+  padding: 20px;
+}
+
+.main nav > ul > li > a:visited {
+  color: #000000
+}
